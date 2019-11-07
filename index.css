@@ -32,6 +32,14 @@ main h3 {
   width: 350px;
   text-align: left;
   padding-left: 10px;
+  text-decoration: line-through;
+}
+
+.noStrikethrough {
+  display: inline-block;
+  width: 350px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 /* .edit-input {
@@ -46,6 +54,6 @@ main hr {
   margin: 1rem;
 }
 
-input[type=checkbox]:checked+label.strikethrough {
+/* input[type=checkbox]:checked+label.strikethrough {
   text-decoration: line-through;
-}
+} */
